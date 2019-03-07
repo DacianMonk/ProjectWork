@@ -11,7 +11,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <header>Products Book</header>
+    <header>Products</header>
     <div>
         <article>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
