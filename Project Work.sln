@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice", "BackOffice\BackOffice.csproj", "{943F8E9E-5193-40C4-AB0E-841B8B95A988}"
-EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite", "http://localhost:59225", "{8D098B46-4C6E-461F-8A82-F4819C21B555}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
@@ -37,10 +35,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{943F8E9E-5193-40C4-AB0E-841B8B95A988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{943F8E9E-5193-40C4-AB0E-841B8B95A988}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{943F8E9E-5193-40C4-AB0E-841B8B95A988}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{943F8E9E-5193-40C4-AB0E-841B8B95A988}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8D098B46-4C6E-461F-8A82-F4819C21B555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8D098B46-4C6E-461F-8A82-F4819C21B555}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D098B46-4C6E-461F-8A82-F4819C21B555}.Release|Any CPU.ActiveCfg = Debug|Any CPU
@@ -56,5 +50,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21314DF4-F48C-483D-BDE6-A90C0DFDD08E}
 	EndGlobalSection
 EndGlobal

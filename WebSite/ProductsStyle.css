@@ -1,0 +1,16 @@
+﻿body { background-color: antiquewhite; 
+}
+header {
+    background-color: antiquewhite;
+    height: 10%;
+    position: fixed;
+    width: 100%;
+    top: 5%;
+    left: 1%;
+}
+article {;
+    position: fixed;
+    width: 100%;
+    top: 10%;
+    left: 1%;
+}
