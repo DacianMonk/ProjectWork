@@ -1,15 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Delete.aspx.cs" Inherits="Delete" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ProductsMaster.master" AutoEventWireup="true" CodeFile="Delete.aspx.cs" Inherits="Delete" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+            <br />
+            <asp:Label ID="lblProductID" runat="server" style="z-index: 1; width: 323px;" Text="Are you sure you want to delete this Product?"></asp:Label>
+            <br />
+            <asp:Button ID="btnYes" runat="server" style="z-index: 1;" height="26px" width="59px" Text="Yes" OnClick="btnYes_Click" />
+            <asp:Button ID="btnNo" runat="server" style="z-index: 1;" height="26px" width="59px" Text="No" OnClick="btnNo_Click" />
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-</body>
-</html>
+</asp:Content>
+

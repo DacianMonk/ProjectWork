@@ -7,6 +7,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite", "http://localhost
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{30029452-ba29-46eb-b9f5-bbf30b1f03b3}|Class Library.dll;{77cdfff9-8b9d-4b4c-bb06-9330a027136d}|Test Framework.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_59225"
 		Debug.AspNetCompiler.PhysicalPath = "WebSite\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59225\"
@@ -28,6 +29,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Framework", "Test Framework\Test Framework.csproj", "{77CDFFF9-8B9D-4B4C-BB06-9330A027136D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Library", "Class Library\Class Library.csproj", "{30029452-BA29-46EB-B9F5-BBF30B1F03B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App_Data", "App_Data", "{948EE71D-CCE9-414C-8D04-6BAF0852631A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
