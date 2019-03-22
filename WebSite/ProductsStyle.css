@@ -1,0 +1,19 @@
+﻿body { background-color: antiquewhite; 
+}
+header {
+    font-size: 40px; 
+    font-family: 'Comic Sans MS';
+    background-color: antiquewhite;
+    height: 10%;
+    position: fixed;
+    width: 100%;
+    top: 2%;
+    left: 1%;
+}
+article {
+    font-family: 'Comic Sans MS';
+    position: fixed;
+    width: 100%;
+    top: 10%;
+    left: 1%;
+}

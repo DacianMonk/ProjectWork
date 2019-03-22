@@ -35,7 +35,6 @@ public class clsDataConnection
         GetConString(DBLocation);
     }
 
-
     private string GetConString(string SomePath)
     {
         //build up the connection string for the sql server database Visual Studio 2010
@@ -44,6 +43,7 @@ public class clsDataConnection
         //connectionString = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=" + GetDBName() + ";Integrated Security=True;Connect Timeout=30";
         //connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"" + GetDBName() + "\";Integrated Security=True;Connect Timeout=30";
         connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"###\";Integrated Security=True;Connect Timeout=30";
+        //SomePath = "D:\\Work\\Year 2\\IMAT2204\\Project Work\\App_Data\\ProductData.mdf";
         connectionString = connectionString.Replace("###", SomePath);
         return connectionString;
     }
